@@ -4,3 +4,12 @@
 #### 效果：
 ![img_1.png](img_1.png)
 ![img_2.png](img_2.png)
+
+#### 缺陷
+实际使用发现对于很长的文章，仅能抓取前部分内容，具体原因没找到
+#### 解决方法
+浏览器进入F12开发者模式,找到文章内容的html并复制
+![img_3.png](img_3.png)
+![img_4.png](img_4.png)
+然后使用该网站：https://www.helloworld.net/html2md
+把html转md
